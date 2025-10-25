@@ -1,14 +1,26 @@
 body {
     background-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
 }
-h1, h2, h3, h4, h5, h6, h7 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
     color: aqua;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p, ul, ol {
+
+p,
+ul,
+ol {
     margin-bottom: 20px;
 }
+
 button {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -17,15 +29,17 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+
 button:hover {
     background-color: rgb(132, 133, 234);
 }
+
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 a:hover {
     color: rgb(255, 0, 0);
     text-decoration: underline;
 }
-
